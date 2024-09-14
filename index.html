@@ -1,45 +1,53 @@
 <!DOCTYPE html>
-
-
-
 <html lang="en">
-
-
-
 <head>
-
-
-
-<meta charset="UTF-8">
-
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-<title>My GitHub Page</title>
-
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA440 HW 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .output {
+            background-color: #e0ffe0;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-
-
-
 <body>
 
+    <iframe
+  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1"
+  width="100%"
+  height="500px"
+>
+</iframe>
 
+    <h1>Embedded Notebook Code</h1>
 
-<h1>Welcome to My GitHub Page</h1>
+    <!-- Code Cell 1 -->
+    <h2>Code Cell 1</h2>
+    <pre><code>model.predict(xscaled[0].reshape(1,-1))</code></pre>
+    <div class="output">
+        <strong>Output:</strong> array([17.06248486])
+    </div>
 
+    <!-- Code Cell 2 -->
+    <h2>Code Cell 2</h2>
+    <pre><code>y[0]</code></pre>
+    <div class="output">
+        <strong>Output:</strong> 18.0
+    </div>
 
-
-<p>This is my personal website hosted on GitHub Pages!</p>
-
-
+    <!-- You can continue this pattern for all other code cells -->
 
 </body>
-
-
-
 </html>
